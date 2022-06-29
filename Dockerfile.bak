@@ -1,5 +1,5 @@
 # 基础镜像使用java
-FROM openjdk:8-jdk-alpine
+FROM my/centos
 # 作者
 MAINTAINER zym
 # VOLUME 指定临时文件目录为/tmp，在主机/var/lib/docker目录下创建了一个临时文件并链接到容器的/tmp
